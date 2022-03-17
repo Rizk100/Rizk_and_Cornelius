@@ -8,16 +8,41 @@
     <title id="title">Document</title>
 </head>
 <body>
+   
     <h1 id="title"> Simple Survey Form</h1>
 
     <p id="description"> Simple survey form. Won't take you long to fill </p>
     <form action="" id="survey-form">
+       
         <label for="" id="name-label"> Name </label>
-        <input type="text" id="name">
+        <input type="text" id="name" placeholder="name">
         <label for="" id="email-label"> Email</label>
-        <input type="email" id="email">
+        <input type="email" id="email" placeholder="email">
         <label for="" id="numberLabel"></label>
-        <input type="number" min="2" max="7" id="number">
+        <input type="number" min="2" max="7" id="number" placeholder="number">
+
+        <select id="dropdown">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+       
+        <input type="radio" id="option1" name="list-options" value="HTML">
+        <label for="option1">Option 1</label><br>
+        <input type="radio" id="option2" name="options" value="CSS">
+        <label for="option2">Option 2</label><br>
+        <input type="radio" id="option3" name="options" value="JavaScript">
+        <label for="option3">Option3 </label>
+    
+                     <p>Second list Option </p>
+    
+        <input type="radio" id="option1" name="list-options" value="HTML">
+        <label for="option1">Option 1</label><br>
+        <input type="radio" id="option2" name="options" value="CSS">
+        <label for="option2">Option 2</label><br>
+        <input type="radio" id="option3" name="options" value="JavaScript">
+        <label for="option3">Option3 </label>
+
+        
 
     </form>
 </body>
